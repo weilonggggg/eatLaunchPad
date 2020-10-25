@@ -1,0 +1,119 @@
+.pictures { 
+    margin : 0 auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.image { 
+    overflow: hidden;
+    height : 0;
+    padding: 50% 50%;
+    position: relative;
+    bottom: 70px;
+
+}
+
+.image img{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position : absolute;
+    top : 50px;
+    left : 50px;
+
+}
+
+.header-wrap { 
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    margin : 0 auto;
+    width : 800px;
+}
+
+.profile img { 
+    max-width: 50%;
+    max-width: 75%;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    top:25px;
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    top: 20px;
+    right: 75px;
+}
+
+.list { 
+    list-style: none;
+}
+
+.widget {
+    position: relative;
+    left : 60px;
+    bottom: 35px;
+}
+
+.button button {
+    padding: 2px;
+    position: relative;
+    left : 15px;
+    bottom: 10px;
+    font-weight: bolder;
+    max-width: 75px;
+    max-height: 15px;
+    font-size: 8px;
+}
+
+.bio { 
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left : 200px;
+    bottom: 20px;
+    font-size: 12px ;
+}
+
+.postsnumbers { 
+    margin : 0 8px;
+    font-weight: bold;
+}
+.followersnumbers { 
+    margin : 0 8px;
+    font-weight: bold;
+}
+.followingnumbers { 
+    margin : 0 8px;
+    font-weight: bold;
+}
+
+.artsy { 
+    font:helvetica;
+    font-weight: normal;
+    font-size: 12px;
+    position: relative;
+    bottom: 54px;
+    left: 83px;
+}
+
+.quotename {
+    font-size: 12px;
+    font-weight: bolder;
+    position: relative;
+    bottom:20px;
+    right:100px;
+}
+
+.content { 
+    font-size: 12px;
+    position: relative;
+    left: 50px;
+    margin-top: 50px;
+}
